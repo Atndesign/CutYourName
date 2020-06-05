@@ -18,7 +18,7 @@ You'll need to enter a name in each input and then click on the cut your name bu
 
 ## Demo
 
-You can use it here: [Give me a prize](https://atndesign.github.io/CutYourName/) .
+You can use it here: [demo here](https://atndesign.github.io/CutYourName/) .
 
 ## Screenshots
 
