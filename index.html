@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
@@ -18,6 +18,35 @@
   </head>
 
   <body>
+    <section class="hero">
+      <h1 class="hero__title">Cut the name</h1>
+      <img
+        class="hero__img"
+        src="./assets/img/scissors.png"
+        srcset="./assets/img/scissors.svg"
+        alt="scissors"
+        width="120"
+        height="60"
+      />
+    </section>
+    <section class="form">
+      <label class="form__label" for="firstname">First name</label>
+      <input class="form__input" type="text" />
+      <label class="form__label" for="firstname">Second name</label>
+      <input class="form__input --bigspace" type="text" />
+      <button class="form__submit">
+        <img
+          class="form-submit__icon"
+          srcset="./assets/img/scissors-icon.svg"
+          src="./assets/img/scissors-icon.png"
+          alt="scissors"
+        />
+        Cut my name
+      </button>
+    </section>
+    <section class="result">
+      <p class="result__text">new name: dk</p>
+    </section>
     <script src="./script.js"></script>
   </body>
 </html>
