@@ -18,9 +18,13 @@ function sliceNames(name1, name2) {
     let slicedFirstName = name1.slice(0, name1.length / 2);
     let slicedSecondName = name2.slice(name2.length / 2);
     displayResult(slicedFirstName + slicedSecondName);
+  } else {
+    displayResult("You must insert a name in each field");
   }
 }
 
 function displayResult(newText) {
+  firstNameDom.value = "";
+  secondNameDom.value = "";
   resultDom.textContent = `New name: ${newText}`;
 }

@@ -1,12 +1,12 @@
-# Give me a prize
+# Cut Your Name
 
 ## Project Description:
 
-Give me a prize, is a website made for picking a random subject / person
+Cut your name, is a simple web project I did a while ago, it just cut two names and merge them together
 
 ## How to use it?
 
-You'll need to enter your list into the text area separated by a semicolon and press the "Pick a winner" button and enjoy ! ^^
+You'll need to enter a name in each input and then click on the cut your name button
 
 ## Techologies:
 
@@ -18,7 +18,7 @@ You'll need to enter your list into the text area separated by a semicolon and p
 
 ## Demo
 
-You can use it here: [Give me a prize](https://atndesign.github.io/give-me-a-prize/) .
+You can use it here: [Give me a prize](https://atndesign.github.io/CutYourName/) .
 
 ## Screenshots
 
